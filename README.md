@@ -1,0 +1,41 @@
+# MyMLLibrary
+
+A simple Python Machine Learning library containing machine learning algorithms implemented from scratch for learning and educational purposes.
+
+## Features
+
+- Machine Learning algorithms implemented from scratch
+- Simple and beginner-friendly implementations
+- No automatic dataset loading
+- No automatic model training or prediction
+- Source code of each algorithm can be displayed directly
+- Designed for learning how ML algorithms work internally
+
+## Algorithms
+
+Currently available:
+
+1. Perceptron Learning Algorithm (PLA)=
+2. Linear Regression
+3. Logistic Regression
+4. K-Nearest Neighbors (KNN)
+5. Naive Bayes
+6. K-Means Clustering
+7. DBSCAN
+8. Single Layer Perceptron (SLP)
+9. Performance matrix
+10. Multilayer Perceptron (MLP)
+
+### Supporting Modules
+
+- Performance Metrics
+- Code Viewer
+
+> More algorithms will be added in future versions.
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/AYUSHKUMAR0401/MyMLLibrary.git
