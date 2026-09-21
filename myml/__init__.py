@@ -1,9 +1,22 @@
+# MyMLLibrary
+# Machine Learning Algorithms
+
+
+# --------------------------------------------------
+# PLA
+# --------------------------------------------------
+
 from .Pla import (
-    activation,
+    activation as pla_activation,
     train_perceptron,
-    predict,
+    predict as pla_predict,
     show_perceptron_code
 )
+
+
+# --------------------------------------------------
+# Linear Regression
+# --------------------------------------------------
 
 from .Linear_regression import (
     linear_regression,
@@ -11,6 +24,11 @@ from .Linear_regression import (
     plot_regression,
     show_linear_regression_code
 )
+
+
+# --------------------------------------------------
+# Logistic Regression
+# --------------------------------------------------
 
 from .Logistic_regression import (
     sigmoid,
@@ -21,12 +39,22 @@ from .Logistic_regression import (
     show_logistic_regression_code
 )
 
+
+# --------------------------------------------------
+# KNN
+# --------------------------------------------------
+
 from .Knn import (
-    calculate_distance,
+    calculate_distance as knn_distance,
     calculate_distances,
     knn_classification,
     show_knn_code
 )
+
+
+# --------------------------------------------------
+# Naive Bayes
+# --------------------------------------------------
 
 from .Naive_bayes import (
     gaussian_probability,
@@ -37,34 +65,75 @@ from .Naive_bayes import (
     show_naive_bayes_code
 )
 
+
+# --------------------------------------------------
+# K-Means Clustering
+# --------------------------------------------------
+
 from .K_mean_clustering import (
-    distance,
+    distance as kmeans_distance,
     assign_clusters,
     calculate_centroids,
     kmeans,
-    display_clusters,
+    display_clusters as display_kmeans_clusters,
     plot_graph,
     show_kmeans_code
 )
 
+
+# --------------------------------------------------
+# DBSCAN Clustering
+# --------------------------------------------------
+
 from .Dbscan_clustering import (
-    distance,
+    distance as dbscan_distance,
     get_neighbors,
     dbscan,
     plot_dbscan,
-    display_clusters,
+    display_clusters as display_dbscan_clusters,
     show_dbscan_code
 )
 
+
+# --------------------------------------------------
+# SLP
+# --------------------------------------------------
+
 from .Slp import (
-    step,
+    step as slp_step,
     train_slp,
-    predict,
+    predict as slp_predict,
     show_slp_code
 )
+
+
+# --------------------------------------------------
+# Performance Metrics
+# --------------------------------------------------
 
 from .Performance_matrix import (
     confusion_matrix,
     calculate_accuracy,
     show_performance_metrics_code
+)
+
+
+# --------------------------------------------------
+# Multilayer Perceptron
+# --------------------------------------------------
+
+from .Multilayer_perceptron import (
+    normalize_data,
+    one_hot_encode,
+    relu,
+    relu_derivative,
+    softmax,
+    initialize_parameters,
+    forward,
+    loss_function,
+    backpropagation,
+    train_mlp,
+    predict as mlp_predict,
+    calculate_accuracy as mlp_calculate_accuracy,
+    show_mlp_code
 )

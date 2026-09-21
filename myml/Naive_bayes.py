@@ -1,7 +1,4 @@
 import math
-# --------------------------------------------------
-# Function 1: Gaussian Probability
-# --------------------------------------------------
 def gaussian_probability(x, mean, variance):
     if variance == 0:
         return 1.0
@@ -12,25 +9,15 @@ def gaussian_probability(x, mean, variance):
         1 / math.sqrt(2 * math.pi * variance)
     ) * exponent
     return probability
-#--------------------------------------------------
-# Function 2: Calculate Mean
-# --------------------------------------------------
 def calculate_mean(values):
     return sum(values) / len(values)
-# --------------------------------------------------
-# Function 3: Calculate Variance
-# --------------------------------------------------
 def calculate_variance(values):
     mean = calculate_mean(values)
     variance = sum(
         (x - mean) ** 2 for x in values
     ) / len(values)
     return variance
-# --------------------------------------------------
-# Function 4: Calculate Class Probability
-# --------------------------------------------------
 def calculate_probability(data, test_data, class_name):
-
     class_data = data[
         data["Class"] == class_name
     ]
@@ -54,9 +41,6 @@ def calculate_probability(data, test_data, class_name):
         )
         probability *= likelihood
     return probability
-# --------------------------------------------------
-# Function 5: Naive Bayes Classification
-# --------------------------------------------------
 def naive_bayes(data, test_data):
     spam_probability = calculate_probability(
         data,
@@ -73,10 +57,16 @@ def naive_bayes(data, test_data):
     else:
         prediction = "Not_Spam"
     return prediction
-# -------------------------------------------------
-# Function 6: Display Naive Bayes Source Code
 # --------------------------------------------------
-def show_naive_bayes_code():
+# READ CSV DATASET
+# --------------------------------------------------
+# import pandas as pd
+# data = pd.read_csv("dataset.csv")
+# X = data[["Feature1", "Feature2"]].values
+# y = data["Label"].values
+# result = naive_bayes(X, y)
+# print(result)
+def show_naive():
     import sys
     from .code_viewer import show_code5
     module = sys.modules[__name__]
