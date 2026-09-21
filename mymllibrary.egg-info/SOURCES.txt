@@ -2,14 +2,14 @@ README.md
 pyproject.toml
 myml/Dbscan_clustering.py
 myml/K_mean_clustering.py
-myml/Knn.py
+myml/K_nearest.py
 myml/Linear_regression.py
 myml/Logistic_regression.py
 myml/Multilayer_perceptron.py
 myml/Naive_bayes.py
+myml/Perceptron.py
 myml/Performance_matrix.py
-myml/Pla.py
-myml/Slp.py
+myml/Single_perceptron.py
 myml/__init__.py
 myml/code_viewer.py
 mymllibrary.egg-info/PKG-INFO

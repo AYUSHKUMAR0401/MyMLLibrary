@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mymllibrary"
-version = "0.1.1"
+version = "0.1.2"
 description = "A beginner-friendly Python machine learning library implemented from scratch."
 readme = "README.md"
 requires-python = ">=3.8"
