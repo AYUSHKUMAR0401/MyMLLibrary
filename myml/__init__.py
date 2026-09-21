@@ -10,7 +10,7 @@ from .Pla import (
     activation as pla_activation,
     train_perceptron,
     predict as pla_predict,
-    show_perceptron_code
+    show_pla
 )
 
 
@@ -22,7 +22,7 @@ from .Linear_regression import (
     linear_regression,
     error_metrics,
     plot_regression,
-    show_linear_regression_code
+    show_linear
 )
 
 
@@ -36,7 +36,7 @@ from .Logistic_regression import (
     cost_function,
     gradient_descent,
     logistic_regression,
-    show_logistic_regression_code
+    show_logistic
 )
 
 
@@ -48,7 +48,7 @@ from .Knn import (
     calculate_distance as knn_distance,
     calculate_distances,
     knn_classification,
-    show_knn_code
+    show_knn
 )
 
 
@@ -62,7 +62,7 @@ from .Naive_bayes import (
     calculate_variance,
     calculate_probability,
     naive_bayes,
-    show_naive_bayes_code
+    show_naive
 )
 
 
@@ -77,7 +77,7 @@ from .K_mean_clustering import (
     kmeans,
     display_clusters as display_kmeans_clusters,
     plot_graph,
-    show_kmeans_code
+    show_kmeans
 )
 
 
@@ -91,7 +91,7 @@ from .Dbscan_clustering import (
     dbscan,
     plot_dbscan,
     display_clusters as display_dbscan_clusters,
-    show_dbscan_code
+    show_dbscan
 )
 
 
@@ -103,7 +103,7 @@ from .Slp import (
     step as slp_step,
     train_slp,
     predict as slp_predict,
-    show_slp_code
+    show_slp
 )
 
 
@@ -114,7 +114,7 @@ from .Slp import (
 from .Performance_matrix import (
     confusion_matrix,
     calculate_accuracy,
-    show_performance_metrics_code
+    show_performance
 )
 
 
@@ -135,5 +135,5 @@ from .Multilayer_perceptron import (
     train_mlp,
     predict as mlp_predict,
     calculate_accuracy as mlp_calculate_accuracy,
-    show_mlp_code
+    show_mlp
 )
