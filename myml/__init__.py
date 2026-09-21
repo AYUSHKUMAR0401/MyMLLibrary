@@ -6,7 +6,7 @@
 # PLA
 # --------------------------------------------------
 
-from .Pla import (
+from .Perceptron import (
     activation as pla_activation,
     train_perceptron,
     predict as pla_predict,
@@ -44,7 +44,7 @@ from .Logistic_regression import (
 # KNN
 # --------------------------------------------------
 
-from .Knn import (
+from .K_nearest import (
     calculate_distance as knn_distance,
     calculate_distances,
     knn_classification,
@@ -99,7 +99,7 @@ from .Dbscan_clustering import (
 # SLP
 # --------------------------------------------------
 
-from .Slp import (
+from .Single_perceptron import (
     step as slp_step,
     train_slp,
     predict as slp_predict,
