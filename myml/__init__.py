@@ -137,3 +137,22 @@ from .Multilayer_perceptron import (
     calculate_accuracy as mlp_calculate_accuracy,
     show_mlp
 )
+
+from .Bell_States import show_bellstate
+from .Bernstein_vazirani import show_bv
+from .Multibits_gates import show_multigate
+from .Toffoli_gate import show_ccnot
+from .Deutsch_algo import show_deutsch
+from .Deutsch_jozsa_algo import show_deutschj
+from .Grovers_algo import show_grover
+from .Shors_algo import show_shor
+from .Simons_algo import show_simon
+from .Superdense import show_superd
+from .Teleportation import show_teleport
+
+
+
+
+
+
+
